@@ -22,12 +22,12 @@ app.listen(port, () => {
 const bot = new Telegraf(process.env.TELEGRAM_API);
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_API_KEY);
 const commands = `
-1. **start** - Greet the user and provide a welcome note.\n
-2. **menu** - Show today's menu for all meals (breakfast, lunch, snacks, dinner).\n
-3. **instructions** - Display a list of available commands and their descriptions.\n
-4. **help** - Contact @Jsakshxm for any help or queries.\n
-5. **about** - Provides information about the bot.\n
-6. **nextdaybf** - Provides the breakfast menu for the next day.\n
+1. /start - Greet the user and provide a welcome note.\n
+2. /menu - Show today's menu for all meals (breakfast, lunch, snacks, dinner).\n
+3. /instructions - Display a list of available commands and their descriptions.\n
+4. /help - Contact @Jsakshxm for any help or queries.\n
+5. /about - Provides information about the bot.\n
+6. /nextdaybf - Provides the breakfast menu for the next day.\n
 `;
 
 
