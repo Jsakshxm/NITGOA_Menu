@@ -133,7 +133,7 @@ bot.command('menu', async (ctx) => {
     ctx.reply(response);
   });
 
-  bot.command("instructions",async(ctx)=>{await ctx.reply(INSTRUCTIONS);})
+  bot.command("instructions",async(ctx)=>{await ctx.reply(commands);})
   
   
 
